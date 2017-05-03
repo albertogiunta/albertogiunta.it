@@ -22,7 +22,8 @@ body {
 
 h2 {
     font-size: 40px;
-    font-family: "rooneysans-heavy";
+    font-family: "rooneysans-heavy-italic";
+    cursor: default;
 }
 
 p {
@@ -166,6 +167,7 @@ a:hover {
 }
 
 .tag {
+    cursor: default;
     display: inline-block;
     margin: 4px 16px 4px 0;
     font-size: 12px;
@@ -180,8 +182,8 @@ a:hover {
 }
 
 .icon {
-    height: 120px;
-    width: 120px;
+    height: 100px;
+    width: 100px;
 }
 
 .title {

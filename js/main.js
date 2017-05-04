@@ -19,7 +19,7 @@ new Vue({
                 btnlink: "https://www.instagram.com/illbegiu"
             },
             {
-                btntext: "Mail",
+                btntext: "E-Mail",
                 btnlink: "mailto:alb.giunta@gmail.com"
             }
         ],
@@ -75,7 +75,7 @@ new Vue({
             },
             {
                 iconpath: "img/logo-seen.png",
-                title: "Seen!\nTv Series Episode Tracker",
+                title: "Seen! Tv Series Episode Tracker",
                 description: "The smartest and definitive way to keep track of your favourite tv shows' episodes!",
                 story: "Once upon a time people used to download TV series, and used to loose track of their progress. Then Netflix arrived.",
                 funfact: "I now use Netflix too.",

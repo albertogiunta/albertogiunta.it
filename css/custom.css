@@ -95,6 +95,7 @@ a:hover {
 .button {
     /*margin: 12px 4px;*/
     height: 40px;
+    width: 80px;
     padding: 4px 10px;
     white-space: nowrap;
     display: inline-block;
@@ -109,6 +110,7 @@ a:hover {
     color: #6772e5;
     text-decoration: none;
     transition: all .15s ease;
+    text-align: center;
 }
 
 .button:hover {
@@ -207,6 +209,7 @@ a:hover {
 
 .card-body .button {
     margin: 0.3em 1em;
+    width: 150px;
 }
 
 .funfact-container {

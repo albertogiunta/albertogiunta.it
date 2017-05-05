@@ -30,13 +30,16 @@
             <div id="app">
                 <div class="text-container">
                     <h2>Alberto Giunta</h2>
-                        <p><span class="funfactchip">CURRENTLY</span> MSc @ University of Bologna (IT)</p>
-                        <p><span class="funfactchip">CURRENTLY</span> Developer <a href="https://play.google.com/store/apps/details?id=com.jaus.albertogiunta.justintrain_oraritreni">@justintrainapp</a></p>
+                        <!--<p><span class="funfactchip">CURRENTLY</span> MSc @ University of Bologna (IT)</p>
+                        <p><span class="funfactchip">CURRENTLY</span> Developer <a href="https://play.google.com/store/apps/details?id=com.jaus.albertogiunta.justintrain_oraritreni">@justintrainapp</a></p>-->
+                        <p>MSc @ University of Bologna (IT)</p>
+                        <p>Developer <a href="https://play.google.com/store/apps/details?id=com.jaus.albertogiunta.justintrain_oraritreni">@justintrainapp</a></p>
                         <br>
                         <p>Here's where you can find me on the Internet: </p>
                         <div class="website-container">
                             <div class="website" v-for="website in websites">
-                                <a class="button" :href="website.btnlink">{{website.btntext}}</a>
+                            <!--<a class="button" :href="website.btnlink" v-bind:class="website.btnclass">{{website.btntext}}</a>-->
+                            <a class="button" :href="website.btnlink">{{website.btntext}}</a>
                             </div>
                         </div>
                         <p>And these are some of my past and current projects: </p>
@@ -55,6 +58,7 @@
                             <p class="title">{{project.title}}</p>
                             <p class="description">{{project.description}}</p>
                             <p class="story">{{project.story}}</p>
+                            <!--<a class="button" v-for="link in project.links" :href="link.btnlink" v-bind:class="link.btnclass">{{link.btntext}}</a>-->
                             <a class="button" v-for="link in project.links" :href="link.btnlink">{{link.btntext}}</a>
                         </div>
                         <div class="funfact-container">

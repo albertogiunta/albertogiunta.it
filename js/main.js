@@ -4,23 +4,28 @@ new Vue({
         websites: [
             {
                 btntext: "Github",
-                btnlink: "https://www.github.com/albertogiunta"
+                btnlink: "https://www.github.com/albertogiunta",
+                btnclass: "github"
             },
             {
                 btntext: "Linkedin",
-                btnlink: "https://www.linkedin.com/in/albertogiunta"
+                btnlink: "https://www.linkedin.com/in/albertogiunta",
+                btnclass: "linkedin"
             },
             {
                 btntext: "Twitter",
-                btnlink: "https://www.twitter.com/albigiu"
+                btnlink: "https://www.twitter.com/albigiu",
+                btnclass: "twitter"
             },
             {
                 btntext: "Instagram",
-                btnlink: "https://www.instagram.com/illbegiu"
+                btnlink: "https://www.instagram.com/illbegiu",
+                btnclass: "instagram"
             },
             {
                 btntext: "E-Mail",
-                btnlink: "mailto:alb.giunta@gmail.com"
+                btnlink: "mailto:alb.giunta@gmail.com",
+                btnclass: "email"
             }
         ],
         projects: [
@@ -33,15 +38,18 @@ new Vue({
                 links: [
                     {
                         btntext: "Google Play Store",
-                        btnlink: "https://play.google.com/store/apps/details?id=com.jaus.albertogiunta.justintrain_oraritreni"
+                        btnlink: "https://play.google.com/store/apps/details?id=com.jaus.albertogiunta.justintrain_oraritreni",
+                        btnclass: "playstore"
                     },
                     {
                         btntext: "Github",
-                        btnlink: "https://github.com/albertogiunta/justintrain-client-android"
+                        btnlink: "https://github.com/albertogiunta/justintrain-client-android",
+                        btnclass: "github"
                     },
                     {
                         btntext: "Telegram Channel",
-                        btnlink: "https://t.me/justintrain"
+                        btnlink: "https://t.me/justintrain",
+                        btnclass: "telegram"
                     }
                 ],
                 tags: [
@@ -60,11 +68,13 @@ new Vue({
                 links: [
                     {
                         btntext: "Chrome Web Store",
-                        btnlink: "https://chrome.google.com/webstore/detail/panda-gif-new-tab/ofplemiepgiehjgedpmhcdifelnpocmm?hl=en"
+                        btnlink: "https://chrome.google.com/webstore/detail/panda-gif-new-tab/ofplemiepgiehjgedpmhcdifelnpocmm?hl=en",
+                        btnclass: "chromewebstore"
                     },
                     {
                         btntext: "Github",
-                        btnlink: "https://github.com/albertogiunta/panda-gif-new-tab"
+                        btnlink: "https://github.com/albertogiunta/panda-gif-new-tab",
+                        btnclass: "github"
                     }
 
                 ],
@@ -84,11 +94,13 @@ new Vue({
                 links: [
                     {
                         btntext: "Chrome Web Store",
-                        btnlink: "https://chrome.google.com/webstore/detail/seen-tv-series-episode-tr/lkickecpgpegomhfjadelgeadepjijeh?hl=en"
+                        btnlink: "https://chrome.google.com/webstore/detail/seen-tv-series-episode-tr/lkickecpgpegomhfjadelgeadepjijeh?hl=en",
+                        btnclass: "chromewebstore"
                     },
                     {
                         btntext: "Github",
-                        btnlink: "https://github.com/albertogiunta/Seen-Chrome-Extension"
+                        btnlink: "https://github.com/albertogiunta/Seen-Chrome-Extension",
+                        btnclass: "github"
                     },
                 ],
                 tags: [

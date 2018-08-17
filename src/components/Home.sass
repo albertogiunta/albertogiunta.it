@@ -1,0 +1,109 @@
+@import "../reset.scss"
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+$txt-title: 32px
+$txt-body: 18px
+$txt-category: 14px
+$txt-section-title: 24px
+$txt-subsection-title: 22px
+
+body, a
+  background-color: #000
+  color: #fff
+  font-size: $txt-body
+  line-height: 1.4
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif
+
+
+p
+  margin-top: 10px
+  margin-bottom: 10px
+
+a
+  padding: 0 5px
+  // text-decoration: none
+  // border-bottom: 2px solid #2c2958
+  // box-shadow: inset 0 -7px 10px 0 #2c2958
+
+#app
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.copyright
+  margin-top: 50px
+  font-size: 14px
+
+.container
+  max-width: 800px
+  margin: auto
+  padding: 10px
+
+  .header
+    margin-top: 30px
+    display: block
+
+    .title
+      font-size: $txt-title
+      display: inline
+      font-weight: bold
+      margin-right: 10px
+
+    .pers-links
+      display: inline
+
+      .link
+        margin-right: 10px
+
+  .content
+
+    .intro
+      margin-top: 25px
+
+    .title-section
+      font-size: $txt-section-title
+      margin-top: 50px
+
+    .projects
+      margin-top: -25px
+
+      .project
+        margin-top: 50px
+
+        .proj-name
+          font-size: $txt-subsection-title
+          font-weight: bold
+
+        .proj-category
+          display: inline
+          color: #ffb2b2
+
+        .proj-caption
+          display: inline
+          font-style: italic
+
+        ul
+          margin-top: 5px
+          margin-left: -5px
+
+        ul > li
+          display: inline
+          margin-right: 20px
+
+
+@media screen and (max-width: 850px)
+  .container
+    margin: 0px 20px
+    margin-bottom: 100px
+    // background-color: pink
+
+    .header
+      display: block
+
+      .title
+        margin-bottom: 20px
+
+      .pers-links
+        display: block
+
+        .link
+          margin-right: 5px

@@ -1,90 +1,12 @@
-<!doctype html>
-<html class="no-js" lang="en">
-
-<head>
+<!DOCTYPE html>
+<html>
+  <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Alberto Giunta</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!--<script src="js/vendor/modernizr-2.8.3.min.js"></script>-->
-    <!--<script src="https://unpkg.com/vue/dist/vue.js"></script>-->
-    <script src="js/vue.js"></script>
-
-</head>
-
-<body>
-    <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-    <div class="screen">
-        <div class="main">
-            <div id="app">
-                <div class="text-container">
-                    <h2>Alberto Giunta</h2>
-                        <!--<p><span class="funfactchip">CURRENTLY</span> MSc @ University of Bologna (IT)</p>
-                        <p><span class="funfactchip">CURRENTLY</span> Developer <a href="https://play.google.com/store/apps/details?id=com.jaus.albertogiunta.justintrain_oraritreni">@justintrainapp</a></p>-->
-                        <p>MSc @ University of Bologna (IT)</p>
-                        <p>Developer <a href="https://play.google.com/store/apps/details?id=com.jaus.albertogiunta.justintrain_oraritreni">@justintrainapp</a></p>
-                        <br>
-                        <p>Here's where you can find me on the Internet: </p>
-                        <div class="website-container">
-                            <div class="website" v-for="website in websites">
-                            <!--<a class="button" :href="website.btnlink" v-bind:class="website.btnclass">{{website.btntext}}</a>-->
-                            <a class="button" :href="website.btnlink">{{website.btntext}}</a>
-                            </div>
-                        </div>
-                        <p>And these are some of my past and current projects: </p>
-                </div>
-
-
-                <div class="cards-container">
-                    <div class="card" v-for="project in projects">
-                        <div class="card-header">
-                            <div class="tag" v-for="tag in project.tags">
-                                {{tag}}
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <img class="icon" :src="project.iconpath">
-                            <p class="title">{{project.title}}</p>
-                            <p class="description">{{project.description}}</p>
-                            <p class="story">{{project.story}}</p>
-                            <!--<a class="button" v-for="link in project.links" :href="link.btnlink" v-bind:class="link.btnclass">{{link.btntext}}</a>-->
-                            <a class="button" v-for="link in project.links" :href="link.btnlink">{{link.btntext}}</a>
-                        </div>
-                        <div class="funfact-container">
-                            <p class="funfact"><span class="funfactchip">FUN FACT</span> {{project.funfact}}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>-->
-        <!--<script src="js/plugins.js"></script>-->
-        <script src="js/main.js"></script>
-
-    <script>
-        (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date(); a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-98451183-1', 'auto');
-        ga('send', 'pageview');
-    </script>
-
-</body>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>albertogiunta.it</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
 </html>

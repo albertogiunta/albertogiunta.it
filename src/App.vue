@@ -5,6 +5,7 @@
 </template>
 
 <script>
+
 import Home from './components/Home'
 
 export default {
@@ -13,4 +14,5 @@ export default {
     Home
   }
 }
+
 </script>

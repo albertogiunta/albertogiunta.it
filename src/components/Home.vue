@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <div class="header">
+      <img class="profile-pic" src="./../assets/profile.jpg" alt="profile pic">
       <h1 class="title">{{name}}</h1>
       <nav class="pers-links">
           <a class="link" v-for="link in personalLinks" :key="link.id" :href="link.link"  target="_blank">{{link.sitename}}</a>
@@ -32,7 +33,7 @@ export default {
   data () {
     return {
       name: 'Alberto Giunta',
-      intro: 'Currently taking my MSc @ University of Bologna, Italy.\nWhen I get an itch I usually make a product out of it.',
+      intro: 'Currently taking my MSc @ University of Bologna, Italy.\n\nWhen I get an itch I usually make a product out of it.',
       personalLinks: [
         {
           sitename: 'Linkedin',

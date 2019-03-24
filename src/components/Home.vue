@@ -33,7 +33,7 @@ export default {
   data () {
     return {
       name: 'Alberto Giunta',
-      intro: 'Currently taking my MSc @ University of Bologna, Italy.\n\nWhen I get an itch I usually make a product out of it.',
+      intro: 'iOS Developer @ Bending Spoons.\n\nWhen I get an itch I usually make a product out of it.',
       personalLinks: [
         {
           sitename: 'Linkedin',
